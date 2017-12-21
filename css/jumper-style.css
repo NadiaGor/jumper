@@ -149,12 +149,12 @@
 
 @media (max-width: 767px) {
 	.background-container {
-		min-height: auto;
+		min-height: 400px;
 		background-attachment: scroll;
 		padding: 70px 20px;
 	}
 	.sticky {
-		top: 95%;
+		top: 93%;
 		bottom: 0px;
 		right: 0px;
 		height: auto;
