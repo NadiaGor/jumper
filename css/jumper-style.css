@@ -1,3 +1,17 @@
+.top {
+	background-color: #000;
+	padding: 20px;
+}
+
+.top a>.fa {
+	color: #fff;
+}
+
+.top a:hover>.fa,
+.top a:focus>.fa {
+	color: #ffb324;
+}
+
 .white {
 	color: #fff;
 }
