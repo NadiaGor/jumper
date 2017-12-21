@@ -4,12 +4,12 @@
 }
 
 .top a>.fa {
-	color: #fff;
+	color: #ffb324;
 }
 
 .top a:hover>.fa,
 .top a:focus>.fa {
-	color: #ffb324;
+	color: #fff;
 }
 
 .white {
