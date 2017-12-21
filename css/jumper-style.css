@@ -1,0 +1,103 @@
+.white {
+	color: #fff;
+}
+
+.white-b {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+	padding: 20px 30px;
+
+}
+
+.font-xx {
+	font-size: 10vw;
+}
+
+.background-container {
+	background-color: #303030;
+	min-height: 600px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: cover;
+	padding: 200px 30px 180px;
+	background-origin: border-box;
+}
+
+.one {
+	background-image: url("../img/joshua-earle-183442_sm.jpg");
+	background-attachment: scroll;
+}
+
+.two {
+	background-image: url("../img/patrick-hendry-221863_sm.jpg");
+}
+
+.three {
+	background-image: url("../img/autumn-studio-407865_sm.jpg");
+	background-attachment: scroll;
+}
+
+.four {
+	background-image: url("../img/paul-morris-212014_sm.jpg");
+}
+
+.five {
+	background-image: url("../img/darius-soodmand-116253_sm.jpg");
+}
+
+.six {
+	background-image: url("../img/oleg-chursin-216430_sm.jpg");
+	background-attachment: scroll;
+}
+
+.seven {
+	background-image: url("../img/nathan-anderson-297460_sm.jpg");
+}
+
+.thanks-unsplash {
+	margin-top: 40px;
+}
+
+.thanks-unsplash a {
+	color: #d6d111;
+}
+
+.jumper {
+	margin-top: 30px;
+}
+
+
+@media (min-width: 1200px) {
+	html, body {
+		max-width: 2000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.font-xx {
+		font-size: 100px;
+	}
+
+	.background-container {
+		background-color: #303030;
+		min-height: 900px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.background-container {
+		background-attachment: scroll;
+		padding: 150px 30px 130px;
+	}
+}
+
+@media (max-width: 767px) {
+	.background-container {
+		min-height: auto;
+		background-attachment: scroll;
+		padding: 70px 20px;
+	}
+}
+
