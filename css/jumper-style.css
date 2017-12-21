@@ -68,6 +68,40 @@
 	margin-top: 30px;
 }
 
+.sticky {
+	position: fixed;
+	top: 50px;
+	right: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sticky ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sticky li {
+	list-style: none;
+	margin: 30px;
+	position: relative;
+}
+
+.sticky li > a {
+	font-size: 16px;
+/*	padding-bottom: 30px;*/
+	/*width: 20px;
+	height: 20px;*/
+	padding: 5px 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #343434;
+}
+
+.sticky li > a:hover,
+.sticky li > a:focus {
+	text-decoration: none;
+}
+
 
 @media (min-width: 1200px) {
 	html, body {
@@ -98,6 +132,17 @@
 		min-height: auto;
 		background-attachment: scroll;
 		padding: 70px 20px;
+	}
+	.sticky {
+		top: 95%;
+		bottom: 0px;
+		right: 0px;
+		height: auto;
+	}
+
+	.sticky li {
+		display: inline-block;
+		margin: 10px;
 	}
 }
 
