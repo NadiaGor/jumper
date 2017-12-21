@@ -154,7 +154,7 @@
 		padding: 70px 20px;
 	}
 	.sticky {
-		top: 85%;
+		top: 80%;
 		bottom: 0px;
 		right: 0px;
 		height: auto;
@@ -163,6 +163,12 @@
 	.sticky li {
 		display: inline-block;
 		margin: 10px;
+	}
+}
+
+@media (max-width: 425px) {
+	.sticky {
+		top: 90%;
 	}
 }
 
