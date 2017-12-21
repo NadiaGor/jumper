@@ -1,4 +1,4 @@
-Jumper
+# Jumper
 Navigate smoothly from section to section within the page.
 Requires jQuery.
 
