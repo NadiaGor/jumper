@@ -15,3 +15,7 @@ Requires jQuery.
   To change the duration, call:
   `$('.your-class').jumpToSection({ duration: youNewDurationInteger })`;
   where `youNewDurationInteger` - Integer
+
+## MIT License
+Copyright (c) 2017 Nadia Atamas &lt;info@atamas-design.com&gt;
+See LICENSE
