@@ -2,6 +2,9 @@
 Navigate smoothly from section to section within the page.
 Requires jQuery.
 
+## Requirements
+  - jQuery
+  
 ## CALL 
 `jumpToSection( options )`;
   `@options` - Integer, duration in milliseconds. Default: 800
