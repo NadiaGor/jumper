@@ -2,7 +2,7 @@
 
 ## Contents
 * [Requirements](../blob/master/README.md#Requirements)
-* [Call](../blob/master/README.md#Call)
+* [Call](../master/README.md#Call)
 * [Jumper](../blob/master/README.md#Jumper)
 * [Counter](../blob/master/README.md#Counter)
 * [Fader](../blob/master/README.md#Fader)
