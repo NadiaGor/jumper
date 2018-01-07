@@ -8,8 +8,8 @@ Requires jQuery.
 ## CALL 
 `jumpToSection( options )`;
   `@options` - Integer, duration in milliseconds. Default: 800
-  
-  ### countIt options: 
+
+### countIt options: 
     	- `duration` - integer in milliseconds. Default: 800                
     	- `easing` - string. `swing` / `linear`. Default `swing`.
 
