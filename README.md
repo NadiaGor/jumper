@@ -6,7 +6,7 @@
 * [Jumper](../blob/master/README.md#Jumper)
 * [Counter](../blob/master/README.md#Counter)
 * [Fader](../blob/master/README.md#Fader)
-* [LICENSE](../blob/master/README.md#LICENSE)
+* [LICENSE](../master/README.md#LICENSE)
 
 
 ## Requirements
